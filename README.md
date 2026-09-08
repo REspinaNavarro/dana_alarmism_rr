@@ -117,5 +117,6 @@ The repository implements the following analytical procedures:
 - Procrustes Alignment
 - Two-sample Proportion Tests
 - Holm Multiple Comparison Correction
+- PROTEST for validation in rotation similarities.
 
 The complete workflow reproduces the statistical analyses, figures, and tables reported in the manuscript.
