@@ -14,7 +14,7 @@ here()
 
 # 2. Importing data and headline cleaning
 
-df_raw <-read_xlsx("data/train_sample.xlsx")
+df_raw <-read_xlsx("data/sample_corpus.xlsx")
 
 # Text cleaning and normalizing
 

@@ -62,16 +62,16 @@
 <circle cx='512.70' cy='361.55' r='5.69' style='stroke-width: 0.71; stroke: none; fill: #D95F02;' />
 <circle cx='262.83' cy='467.44' r='5.69' style='stroke-width: 0.71; stroke: none; fill: #D95F02;' />
 <polygon points='270.15,284.13 277.81,297.40 262.49,297.40 ' style='stroke-width: 0.71; stroke: none; fill: #D95F02;' />
-<text x='222.19' y='91.87' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='44.89px' lengthAdjust='spacingAndGlyphs'>V1_train</text>
-<text x='542.63' y='184.13' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='44.89px' lengthAdjust='spacingAndGlyphs'>V2_train</text>
-<text x='503.23' y='320.65' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='44.89px' lengthAdjust='spacingAndGlyphs'>V3_train</text>
-<text x='282.84' y='458.69' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='44.89px' lengthAdjust='spacingAndGlyphs'>V4_train</text>
-<text x='254.14' y='284.26' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='85.97px' lengthAdjust='spacingAndGlyphs'>Alarm_RR_train</text>
-<text x='201.78' y='68.85' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='40.47px' lengthAdjust='spacingAndGlyphs'>V1_test</text>
-<text x='552.90' y='164.32' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='40.47px' lengthAdjust='spacingAndGlyphs'>V2_test</text>
-<text x='521.19' y='356.78' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='40.47px' lengthAdjust='spacingAndGlyphs'>V3_test</text>
-<text x='254.27' y='480.38' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='40.47px' lengthAdjust='spacingAndGlyphs'>V4_test</text>
-<text x='278.66' y='305.81' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='81.55px' lengthAdjust='spacingAndGlyphs'>Alarm_RR_test</text>
+<text x='229.58' y='92.98' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='59.45px' lengthAdjust='spacingAndGlyphs'>V1_sample</text>
+<text x='535.27' y='183.92' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='59.45px' lengthAdjust='spacingAndGlyphs'>V2_sample</text>
+<text x='486.19' y='338.29' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='59.45px' lengthAdjust='spacingAndGlyphs'>V3_sample</text>
+<text x='282.79' y='458.67' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='59.45px' lengthAdjust='spacingAndGlyphs'>V4_sample</text>
+<text x='254.16' y='284.25' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #2C7FB8; font-family: "Arial";' textLength='100.53px' lengthAdjust='spacingAndGlyphs'>Alarm_RR_sample</text>
+<text x='217.81' y='75.86' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='47.42px' lengthAdjust='spacingAndGlyphs'>V1_blind</text>
+<text x='552.87' y='164.47' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='47.42px' lengthAdjust='spacingAndGlyphs'>V2_blind</text>
+<text x='504.10' y='374.53' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='47.42px' lengthAdjust='spacingAndGlyphs'>V3_blind</text>
+<text x='254.34' y='480.26' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='47.42px' lengthAdjust='spacingAndGlyphs'>V4_blind</text>
+<text x='278.54' y='305.79' text-anchor='middle' style='font-size: 11.38px; font-weight: bold;fill: #D95F02; font-family: "Arial";' textLength='88.50px' lengthAdjust='spacingAndGlyphs'>Alarm_RR_blind</text>
 <text x='164.61' y='467.90' text-anchor='end' style='font-size: 10.40px;fill: #4D4D4D; font-family: "Arial";' textLength='17.91px' lengthAdjust='spacingAndGlyphs'>-0.4</text>
 <text x='164.61' y='370.51' text-anchor='end' style='font-size: 10.40px;fill: #4D4D4D; font-family: "Arial";' textLength='17.91px' lengthAdjust='spacingAndGlyphs'>-0.2</text>
 <text x='164.61' y='273.11' text-anchor='end' style='font-size: 10.40px;fill: #4D4D4D; font-family: "Arial";' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>0.0</text>
@@ -83,20 +83,20 @@
 <text x='554.11' y='500.40' text-anchor='middle' style='font-size: 10.40px;fill: #4D4D4D; font-family: "Arial";' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>0.4</text>
 <text x='379.51' y='515.14' text-anchor='middle' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='128.56px' lengthAdjust='spacingAndGlyphs'>Aligned Dimension 1</text>
 <text transform='translate(140.73,270.49) rotate(-90)' text-anchor='middle' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='128.56px' lengthAdjust='spacingAndGlyphs'>Aligned Dimension 2</text>
-<text x='52.62' y='550.60' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='82.86px' lengthAdjust='spacingAndGlyphs'>Variable Type</text>
-<polygon points='150.59,537.09 158.26,550.36 142.93,550.36 ' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
-<circle cx='224.14' cy='545.94' r='5.69' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
-<text x='165.71' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='43.31px' lengthAdjust='spacingAndGlyphs'>Alarmism</text>
-<text x='239.25' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='90.12px' lengthAdjust='spacingAndGlyphs'>Rhetorical resource</text>
-<text x='355.28' y='550.60' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='46.25px' lengthAdjust='spacingAndGlyphs'>Sample</text>
-<line x1='409.73' y1='545.94' x2='423.56' y2='545.94' style='stroke-width: 1.71; stroke: #2C7FB8; stroke-opacity: 0.70; stroke-dasharray: 9.10,9.10; stroke-linecap: butt;' />
-<circle cx='416.65' cy='545.94' r='5.69' style='stroke-width: 0.71; stroke: #2C7FB8; fill: #2C7FB8;' />
-<line x1='558.29' y1='545.94' x2='572.12' y2='545.94' style='stroke-width: 1.71; stroke: #D95F02; stroke-opacity: 0.70; stroke-dasharray: 9.10,9.10; stroke-linecap: butt;' />
-<circle cx='565.21' cy='545.94' r='5.69' style='stroke-width: 0.71; stroke: #D95F02; fill: #D95F02;' />
-<text x='431.76' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='118.33px' lengthAdjust='spacingAndGlyphs'>Training sample (n = 200)</text>
-<text x='580.32' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='126.08px' lengthAdjust='spacingAndGlyphs'>Validation sample (n = 949)</text>
-<text x='379.51' y='44.84' text-anchor='middle' style='font-size: 12.00px;fill: #666666; font-family: "Arial";' textLength='441.03px' lengthAdjust='spacingAndGlyphs'>Procrustes-aligned MDS configurations | GOFtrain = 0.663 | GOFvalidation = 0.651</text>
-<text x='379.51' y='26.40' text-anchor='middle' style='font-size: 16.00px; font-weight: bold; font-family: "Arial";' textLength='417.72px' lengthAdjust='spacingAndGlyphs'>Transferability Across Training and Validation Samples</text>
+<text x='64.48' y='550.60' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='46.25px' lengthAdjust='spacingAndGlyphs'>Sample</text>
+<line x1='118.93' y1='545.94' x2='132.76' y2='545.94' style='stroke-width: 1.71; stroke: #D95F02; stroke-opacity: 0.70; stroke-dasharray: 9.10,9.10; stroke-linecap: butt;' />
+<circle cx='125.84' cy='545.94' r='5.69' style='stroke-width: 0.71; stroke: #D95F02; fill: #D95F02;' />
+<line x1='253.44' y1='545.94' x2='267.27' y2='545.94' style='stroke-width: 1.71; stroke: #2C7FB8; stroke-opacity: 0.70; stroke-dasharray: 9.10,9.10; stroke-linecap: butt;' />
+<circle cx='260.36' cy='545.94' r='5.69' style='stroke-width: 0.71; stroke: #2C7FB8; fill: #2C7FB8;' />
+<text x='140.96' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='104.28px' lengthAdjust='spacingAndGlyphs'>Blind Corpus (n = 949)</text>
+<text x='275.47' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='116.41px' lengthAdjust='spacingAndGlyphs'>Sample Corpus (n = 200)</text>
+<text x='417.78' y='550.60' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='82.86px' lengthAdjust='spacingAndGlyphs'>Variable Type</text>
+<polygon points='515.76,537.09 523.42,550.36 508.09,550.36 ' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
+<circle cx='589.30' cy='545.94' r='5.69' style='stroke-width: 0.71; stroke: none; fill: #000000;' />
+<text x='530.87' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='43.31px' lengthAdjust='spacingAndGlyphs'>Alarmism</text>
+<text x='604.42' y='549.66' style='font-size: 10.40px; font-family: "Arial";' textLength='90.12px' lengthAdjust='spacingAndGlyphs'>Rhetorical resource</text>
+<text x='379.51' y='44.84' text-anchor='middle' style='font-size: 12.00px;fill: #666666; font-family: "Arial";' textLength='431.03px' lengthAdjust='spacingAndGlyphs'>Procrustes-aligned MDS configurations | GOFsample = 0.663 | GOFblind = 0.651</text>
+<text x='379.51' y='26.40' text-anchor='middle' style='font-size: 16.00px; font-weight: bold; font-family: "Arial";' textLength='366.95px' lengthAdjust='spacingAndGlyphs'>Transferability Across Sample and Blind Corpus</text>
 </g>
 </g>
 </svg>

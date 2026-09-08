@@ -3,12 +3,7 @@
 
 # 1. Packages
 
-packages <- c(
-  "readxl",
-  "tidyverse",
-  "proxy",
-  "ggrepel"
-)
+packages <- c("readxl", "tidyverse", "proxy", "ggrepel", "here")
 
 new_packages <- packages[
   !(packages %in% installed.packages()[,"Package"])
@@ -22,6 +17,9 @@ library(readxl)
 library(tidyverse)
 library(proxy)
 library(ggrepel)
+library(here)
+
+here()
 
 
 # 2. Data

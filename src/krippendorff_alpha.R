@@ -3,11 +3,7 @@
 
 
 # 1. Packages installing if needed
-required_packages <- c(
-  "readxl",
-  "tidyverse",
-  "irrCAC"
-)
+required_packages <- c("readxl", "tidyverse","irrCAC", 'here')
 
 new_packages <- required_packages[
   !(required_packages %in% installed.packages()[, "Package"])
@@ -20,7 +16,9 @@ if(length(new_packages) > 0){
 library(readxl)
 library(tidyverse)
 library(irrCAC)
+library(here)
 
+here()
 
 # 2. Data
 
