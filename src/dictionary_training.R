@@ -1,13 +1,16 @@
-## Application of the Refined Alarmism Dictionary to the Training Corpus
+## Application of the Refined Alarmism Dictionary for 200 headlines
 
 # 1. Packages installing if needed
 
-#paquetes <- c('readxl','tidyverse', 'stringr')
-#new_packages <- paquetes[!(paquetes %in% #installed.packages()[,"Package"])]
-#if(length(new_packages)) install.packages(new_packages)
+paquetes <- c('readxl','tidyverse', 'stringr', 'here')
+new_packages <- paquetes[!(paquetes %in% installed.packages()[,"Package"])]
+if(length(new_packages)) install.packages(new_packages)
 
 library(readxl)
 library(tidyverse)
+library(here)
+
+here()
 
 # 2. Importing data and headline cleaning
 

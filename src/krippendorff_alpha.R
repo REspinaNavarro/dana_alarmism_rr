@@ -1,8 +1,8 @@
 
-# KRIPPENDORFF'S ALPHA ANALYSIS
+# Krippendorff's Alpha for Inter-LLM Agreement
 
 
-# 1. PACKAGE SETUP
+# 1. Packages installing if needed
 required_packages <- c(
   "readxl",
   "tidyverse",
@@ -22,14 +22,14 @@ library(tidyverse)
 library(irrCAC)
 
 
-# 2. DATA
+# 2. Data
 
 df_raw <- read_excel(
-  "data/AI_classification_train.xlsx"
+  "data/AI_sample_corpus.xlsx"
 )
 
 
-# 3. HELPER FUNCTION
+# 3. Helper functions
 
 compute_alpha <- function(df){
   
@@ -44,7 +44,7 @@ compute_alpha <- function(df){
 }
 
 
-# 4. KRIPPENDORFF'S ALPHA
+# 4. Krippendorff's Alpha
 
 # Global alarmism (holistic)
 alpha_alarmism <- compute_alpha(
@@ -107,7 +107,7 @@ alpha_v4 <- compute_alpha(
 )
 
 
-# 5. TABLE 2 - INTER-LLM AGREEMENT
+# 5. TABLE 2 - Inter-LLM Agreement: Krippendorff's Alpha
 table2_alpha <- tibble(
   Construct = c(
     "Alarmism (Global/Holistic)",
@@ -131,7 +131,7 @@ table2_alpha <- tibble(
 print(table2_alpha)
 
 
-# NATIVE LLM PREVALENCE: For Table 2
+# LLM Prevalence
 
 native_prevalence <- tibble(
   Construct = c(

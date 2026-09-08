@@ -1,7 +1,7 @@
 # ==== MDS FIGURES =====
 # Alarmism Detection in Disaster News Headlines
 
-# 1. PACKAGES
+# 1. Packages
 
 packages <- c(
   "readxl",
@@ -24,13 +24,13 @@ library(proxy)
 library(ggrepel)
 
 
-# 2. DATA
+# 2. Data
 df_raw <- read_excel(
-  "data/AI_classification_train.xlsx"
+  "data/AI_sample_corpus.xlsx"
 )
 
 
-# 3. HELPER FUNCTIONS
+# 3. Helper functions
 
 # MDS
 run_mds <- function(df){
@@ -105,8 +105,8 @@ pal_methods <- c(
 )
 
 pal_samples <- c(
-  Training   = "#2C7FB8",
-  Validation = "#D95F02"
+  "Sample Corpus" = "#2C7FB8",
+  "Blind Corpus"  = "#D95F02"
 )
 
 # Shapes
