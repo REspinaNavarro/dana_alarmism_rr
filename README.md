@@ -30,9 +30,9 @@ This script reproduces the reliability metrics reported in Table 2.
 
 ---
 
-### Dictionary Training
+### Dictionary Sample Corpus
 
-Applies the Refined Alarmism Dictionary to the training sample (n = 200).
+Applies the Refined Alarmism Dictionary to the sample corpus (n = 200).
 
 **Techniques:**
 
@@ -52,9 +52,9 @@ Applies the Refined Alarmism Dictionary to the training sample (n = 200).
 
 ---
 
-### Dictionary Validation
+### Dictionary Blind Corpus
 
-Applies the Refined Alarmism Dictionary to the blind validation corpus (n = 949).
+Applies the Refined Alarmism Dictionary to the blind corpus (n = 949).
 
 **Techniques:**
 
@@ -64,7 +64,7 @@ Applies the Refined Alarmism Dictionary to the blind validation corpus (n = 949)
 
 **Outputs:**
 
-- Structured classification of the validation corpus
+- Structured classification of the blind corpus
 - Resource prevalence estimates
 - Classification evidence and traceability
 
@@ -84,13 +84,12 @@ Generates the Multidimensional Scaling (MDS) analyses and spatial representation
 
 - Figure 1: Inter-model Fragmentation
 - Figure 2: Holistic vs Structured Alarmism
-- Figure 3: LLM Consensus vs Refined Dictionary
-- Figure 4: Spatial Configuration of the Refined Dictionary
+- Figure 3: Spatial Configuration of the Refined Dictionary
 
 
 ### Procrustes Analysis
 
-Evaluates the transferability and spatial stability of the Refined Dictionary between the training corpus (n = 200) and the blind validation corpus (n = 949).
+Evaluates the transferability and spatial stability of the Refined Dictionary between the sample corpus (n = 200) and the blind corpus (n = 949).
 
 **Techniques:**
 
@@ -102,8 +101,8 @@ Evaluates the transferability and spatial stability of the Refined Dictionary be
 
 **Outputs:**
 
-- Figure 5: Transferability Across Training and Validation Samples
-- Table 3: Comparison of prevalence rates between training and validation corpora
+- Figure 4: Transferability Across Sample & Blind corpus
+- Table 3: Comparison of prevalence rates between sample and blind corpus
 
 ---
 
