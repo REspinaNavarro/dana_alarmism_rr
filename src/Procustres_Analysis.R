@@ -128,7 +128,7 @@ label_layer <- geom_text_repel(
 )
 
 
-# FIGURE 5
+# FIGURE 4
 # Transferability Across Sample and Blind Corpus
 
 # Sample corpus
@@ -184,10 +184,10 @@ coords_blind <- coords_blind %>%
   relocate(Variable) %>%
   mutate(Sample = "Blind Corpus")
 
-figure_5_data <- bind_rows(coords_sample, coords_blind)
+figure_4_data <- bind_rows(coords_sample, coords_blind)
 
 # Labels
-figure_5_data <- figure_5_data %>%
+figure_4_data <- figure_4_data %>%
   mutate(
     Resource = case_when(
       grepl("V1",    Variable) ~ "V1",
@@ -209,18 +209,18 @@ figure_5_data <- figure_5_data %>%
   )
 
 # Centroid
-centers <- figure_5_data %>%
+centers <- figure_4_data %>%
   filter(grepl("Alarm", Variable)) %>%
   select(Sample, x_start = Dim1, y_start = Dim2)
 
 # Segments
-segments <- figure_5_data %>%
+segments <- figure_4_data %>%
   filter(!grepl("Alarm", Variable)) %>%
   left_join(centers, by = "Sample")
 
 # Figure
-figure_5 <- ggplot(
-  figure_5_data,
+figure_4 <- ggplot(
+  figure_4_data,
   aes(x = Dim1, y = Dim2, color = Sample, shape = Type)
 ) +
   geom_segment(
@@ -268,8 +268,8 @@ figure_5 <- ggplot(
   ) +
   theme_alarmism()
 
-#figure_5
-save_figure(figure_5, "figure_5")
+#figure_4
+save_figure(figure_4, "figure_4")
 
 
 # TABLE 3: PREVALENCE COMPARISON
