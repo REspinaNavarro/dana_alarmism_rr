@@ -1,0 +1,359 @@
+SUPPLEMENT A — DETERMINISTIC DICTIONARY: BAG OF WORDS AND EXPRESSIONS
+From Concept to Detection: Operationalizing Alarmist Rhetorical Resources
+in Disaster News Headlines. The 2024 Valencia DANA Floods as a Case Study
+
+Pattern notation: stem* = matches the stem and any suffix (prefix matching)
+Detection logic:
+  Standalone tokens/expressions → presence of any item triggers the variable
+  Group A + Group B            → at least one item from EACH group must
+                                 co-occur in the same headline
+Language: Spanish (accent-normalised before matching)
+
+========================================================================
+V1 — EXCEPTIONALISM
+========================================================================
+
+  Headlines presenting the event as anomalous, extraordinary, or unprecedented.
+
+
+  Standalone tokens (any one sufficient)
+  ------------------------------------------------------------
+    historic*
+    tragic*
+    inedit*
+    excepcional*
+    extraordin*
+    devast*
+    insolit*
+    catastrof*
+    impact*
+    azot*
+    apocalipt*
+    dramatic*
+    descomunal*
+    tragedia
+    record
+    apocalipsis
+    diluvio
+    locura
+    desastre
+    milagro
+    ratonera
+
+  Multi-word expressions (any one sufficient)
+  ------------------------------------------------------------
+    nunca visto
+    jamas visto
+    sin precedentes
+    nunca antes
+    visto antes
+    revive el panico
+    tormentas destructivas
+    zona cero
+    ha cambiado la historia
+    brutal impacto
+    ano horrible
+    garaje de los horrores
+    revolucion meteorologica
+    vidas segadas
+    fin del mundo
+    dia negro
+
+  Co-occurrence rule: Group A  AND  Group B (one from each)
+  ------------------------------------------------------------
+  [NOTE] A headline must contain at least one term from Group A AND one from Group B.
+
+    Group A — Disaster referents
+      dana
+      riada
+      inundacion*
+      tormenta
+      temporal
+      victimas
+      dan*
+      destruccion
+      lluvias
+      precipitacion*
+      litro*
+      gota fria
+
+    Group B — Intensity/scale qualifiers
+      peor
+      mayor
+      maxim*
+      extrem*
+      unico
+      record
+      mas grande
+      histor*
+      siglo
+      decadas
+      europa
+
+========================================================================
+V2 — SYSTEMIC COLLAPSE
+========================================================================
+
+  Headlines portraying paralysis or breakdown of essential social structures.
+
+
+  Standalone tokens (any one sufficient)
+  ------------------------------------------------------------
+    graves
+    caos
+    colapso
+    inundaciones
+
+  Multi-word expressions (any one sufficient)
+  ------------------------------------------------------------
+    sin suministro electrico
+    sin agua potable
+    grupo de violent*
+    demanda sin precedentes
+
+  Co-occurrence rule: Group A  AND  Group B (one from each)
+  ------------------------------------------------------------
+  [NOTE] At least one disruption verb (A) AND one infrastructure/service noun (B).
+
+    Group A — Disruption verbs / states
+      colaps*
+      paraliz*
+      bloque*
+      incomunic*
+      aisl*
+      desbord*
+      satur*
+      interrump*
+      suspend*
+      cort*
+      cerr*
+      derrumb*
+      dud*
+      atrapad*
+      cancelad*
+      descarriad*
+      restring*
+      anegad*
+      sumerg*
+
+    Group B — Infrastructure / social service referents
+      trafico
+      carretera*
+      tren*
+      metro*
+      aeropuerto*
+      vuelo*
+      transporte*
+      comunicac*
+      hospital*
+      colegio*
+      clase*
+      edificio*
+      servicio*
+      ciudad
+      comedor*
+      atio*
+      conductor*
+      pueblo*
+      voluntar*
+      parking*
+      electricidad
+      agua
+      valencia
+      puerto
+      residencias
+      centenares
+      miles
+      ave
+      provincia
+      archivos
+
+========================================================================
+V3 — CIVIL VULNERABILITY
+========================================================================
+
+  Headlines emphasising abandonment, institutional failure, or unprotectedness.
+
+
+  Standalone tokens (any one sufficient)
+  ------------------------------------------------------------
+    incapac*
+    descoordin*
+    desprote*
+    aband*
+    insuficient*
+    amenaz*
+    desaparecid*
+    incomunic*
+    atrapad*
+    resignad*
+    responsabl*
+    solos
+    retraso
+    demora
+    ausencia
+    desinformacion
+    bulos
+    mazon
+    explicac*
+
+  Multi-word expressions (any one sufficient)
+  ------------------------------------------------------------
+    respuesta tardia
+    nadie acudio
+    el pueblo para el pueblo
+    filas de voluntarios
+    vecinos indignados
+    llam* a [...] para despedirse  [regex: llam\w a(?: \S+){1,6} para despedirse]
+    abandonados por el estado
+    cumulo de errores
+    rescates in extremis
+    centros de recogida
+    acude a valencia
+    se activo horas antes
+    aviso dias antes
+    cargas policiales
+    por el cuello
+    miles de voluntarios
+    catastrofe* anunciada*
+    alertas sobrepasadas
+    continuan desaparecidos
+
+  Co-occurrence rule: Group A  AND  Group B (one from each)
+  ------------------------------------------------------------
+  [NOTE] A negation/inadequacy marker (A) must qualify an institutional action (B).
+
+    Group A — Negation / inadequacy markers
+      no  [word boundary: \bno\b]
+      sin
+      ausencia
+      imped*
+      tard*
+      retras*
+      insuficient*
+      repulsa
+      por que
+      con lentitud
+
+    Group B — Institutional action verbs / response terms
+      inform*
+      actualiz*
+      respond*
+      proteg*
+      auxil*
+      evacu*
+      rescat*
+      interven*
+      asist*
+      limp*
+      enviad*
+      ayuda*
+      supera*
+      respuesta
+      avisad*
+      salir
+      gestion
+      emergencia*
+      protocolos
+      actuar*
+
+========================================================================
+V4 — FUTURE ESCALATION
+========================================================================
+
+  Headlines projecting ongoing or worsening risk beyond the immediate event.
+
+
+  Standalone tokens (any one sufficient)
+  ------------------------------------------------------------
+    agrav*
+    empeorar*
+    amenaz*
+    persist*
+    continu*
+    seguir*
+    provoc*
+    responsabilidad*
+    traumatiz*
+    afectad*
+    fallas
+
+  Multi-word expressions (any one sufficient)
+  ------------------------------------------------------------
+    cuando el agua se ha ido
+    no sabemos si podremos volver
+    lo peor esta por llegar
+    se cobra la primera victima
+    catastrofe medioambiental
+    arroz intoxicado
+    de momento
+    esta en peligro
+    alerta roja
+    lesiones en los cimientos
+    nunca recuperaremos la normalidad
+
+  Co-occurrence rule: Group A  AND  Group B (one from each)
+  ------------------------------------------------------------
+  [NOTE] A temporal/prospective marker (A) must co-occur with a risk/hazard noun (B).
+
+    Group A — Temporal / prospective markers
+      seguir*
+      continuar*
+      nuev*
+      proxim*
+      podr*
+      se espera
+      apunta a
+      esta por venir
+      no ha acabado
+      no ha terminado
+      podria empeorar
+      riesgo creciente
+      alerta*
+      vuelve a
+      dud*
+      alert*
+      acech*
+      dana mas
+      siguen
+      puede volver
+      se acerca a
+      riesgo*
+      se teme
+      sube*
+
+    Group B — Risk / hazard referents
+      dana*
+      lluvias
+      tormentas
+      alertas
+      riesgo*
+      fenomenos
+      problema*
+      inundaciones
+      barro
+      derrumb*
+      contamina*
+      enfermedades
+      plaga*
+      emergenc*
+      aemet
+      otras zonas
+      muert*
+      desaparecid*
+      victim*
+      salud
+      demanda
+      desgracia
+      lodo
+      infecciones
+
+========================================================================
+END OF DICTIONARY
+========================================================================
+
+Implementation: R script available at https://github.com/REspinaNavarro/dana_alarmism_rr/ in dictionary_sample.R and dictionary_blind.R
+Text pre-processing: lowercasing, accent/diacritic normalisation (iconv UTF-8 → ASCII//TRANSLIT),
+  removal of punctuation and double spaces.
+Matching: grepl() with ignore.case = TRUE; patterns sorted by length (longest first)
+  to avoid false-positive short-stem matches.
